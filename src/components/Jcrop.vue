@@ -49,7 +49,7 @@ export default {
     }
   },
   beforeDestroy: function () {
-    this.jcrop.destroy();
+    this.jcrop&&this.jcrop.destroy();
   },
   data: () => ({
     pos: null,

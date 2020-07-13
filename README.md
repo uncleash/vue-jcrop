@@ -1,5 +1,7 @@
 # vue-jcrop
 
+==THIS IS MODIFIED VERSION FXING SPORADIC CRASH ON COMPONENT DESTROY==
+
 [![npm](https://img.shields.io/npm/v/vue-jcrop.svg) ![npm](https://img.shields.io/npm/dm/vue-jcrop.svg)](https://www.npmjs.com/package/vue-jcrop)
 [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
 
