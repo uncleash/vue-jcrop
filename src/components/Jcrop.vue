@@ -35,7 +35,7 @@ export default {
   watch: {
     rect: {
       handler: function(v) {
-        if (!this.jcrop.active) return false;
+        if (!this.jcrop||!this.jcrop.active) return false;
         this.jcrop.active.animate(Jcrop.Rect.from(v),20,'inOutCirc')
           .then(() => {
             this.jcrop.focus();
