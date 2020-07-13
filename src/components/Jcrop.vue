@@ -16,7 +16,6 @@ export default {
   },
   methods: {
     startup(img){
-      console.log(this.options);
       this.jcrop = Jcrop.attach(img,this.options||{});
       var rect = Jcrop.Rect.sizeOf(this.jcrop.el);
 
@@ -35,7 +34,7 @@ export default {
   watch: {
     rect: {
       handler: function(v) {
-        if (!this.jcrop||!this.jcrop.active) return false;
+        if (!this.jcrop||!this.jcrop.active) return false;  // S.L.
         this.jcrop.active.animate(Jcrop.Rect.from(v),20,'inOutCirc')
           .then(() => {
             this.jcrop.focus();
@@ -49,7 +48,7 @@ export default {
     }
   },
   beforeDestroy: function () {
-    this.jcrop&&this.jcrop.destroy();
+    this.jcrop&&this.jcrop.destroy();  // S.L.
   },
   data: () => ({
     pos: null,

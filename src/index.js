@@ -1,4 +1,5 @@
 import Jcrop from './components/Jcrop.vue'
+import { Rect } from 'jcrop'
 
 // Install the components
 export function install (Vue) {
@@ -7,7 +8,7 @@ export function install (Vue) {
 }
 
 // Expose the components
-export { Jcrop }
+export { Jcrop, Rect }
 
 /* -- Plugin definition & Auto-install -- */
 /* You shouldn't have to modify the code below */
