@@ -1,7 +1,7 @@
 {
   "name": "@uncleash/vue-jcrop",
   "description": "The Javascript cropping widget for Vue.js (Modified by S. Lebedev)",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Tapmodo Interactive",
     "email": "khallman@tapmodo.com"
